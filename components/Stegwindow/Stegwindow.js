@@ -35,7 +35,7 @@ const Stegwindow = () => {
       data.append("file", file);
       data.append("secret", secret);
 
-      fetch("http://localhost:8000/encrypt", {
+      fetch(process.env.NODE_ENV === "production" ? "https://ketu-web.herokuapp.com/encrypt" : "http://localhost:8000/encrypt", {
         method: "POST",
         body: data,
       })
@@ -48,7 +48,7 @@ const Stegwindow = () => {
       const data = new FormData();
       data.append("file", file);
 
-      fetch("http://localhost:8000/decrypt", {
+      fetch(process.env.NODE_ENV === "production" ? "https://ketu-web.herokuapp.com/decrypt" : "http://localhost:8000/decrypt", {
         method: "POST",
         body: data,
       })
