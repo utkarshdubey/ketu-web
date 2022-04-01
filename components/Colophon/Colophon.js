@@ -6,7 +6,7 @@ const Colophon = () => {
     <Text>
       <Title>Ketu</Title>
       <Subtitle>
-        Ketu is a steganography tool built in Python and Next for AISSCE 2021-2022 as part of the CS and IP curriculum. This project was built by <a href="https://utkarsh.co" target="_blank" style={{ color: "#fff" }}>Utkarsh Dubey</a>, Amogh Sabarwal, Ashutosh Singh, Manas Acharya, and Shabd Dubey.
+        Ketu is a steganography tool built in Python and Next for AISSCE 2021-2022 as part of the CS and IP curriculum. This project was built by <a href="https://utkarsh.co" target="_blank" rel="noreferrer" style={{ color: "#fff" }}>Utkarsh Dubey</a>, Amogh Sabarwal, Ashutosh Singh, Manas Acharya, and Shabd Dubey.
       </Subtitle>
     </Text>
   );
