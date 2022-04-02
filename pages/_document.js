@@ -20,7 +20,7 @@ class MyDocument extends Document {
           {/* eslint-disable-next-line react/no-danger */}
           <style id="stitches" dangerouslySetInnerHTML={{ __html: styles }} />
         </Head>
-        <body>
+        <body style={{ backgroundColor: "#111111"}}>
           <Main />
           <NextScript />
         </body>

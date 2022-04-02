@@ -1,5 +1,5 @@
 import { globalCss } from "@stitches/react";
-import { COLORS, WEIGHTS } from "./constants";
+import { WEIGHTS } from "./constants";
 
 export const globalStyles = globalCss({
   "*": {
@@ -14,7 +14,6 @@ export const globalStyles = globalCss({
     fontWeight: WEIGHTS.regular,
     lineHeight: 1.5,
     "-webkit-font-smoothing": "antialiased",
-    backgroundColor: COLORS.gray[800],
     color: COLORS.primary,
   },
   "img, picture, video, canvas, svg": {
