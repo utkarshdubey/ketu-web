@@ -26,8 +26,8 @@ const UploadTile = (props) => {
       toast.error("File must be a .png");
       return;
     }
-    if(fileUploaded.size / 1024 > 50) {
-      toast.error("The file size is too big, please select an image below 50kb.")
+    if(fileUploaded.size / 1024 > 900) {
+      toast.error("The file size is too big, please select an image below 900kb.")
       return;
     }
     setFilename(fileUploaded.name)

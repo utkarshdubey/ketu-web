@@ -69,9 +69,6 @@ const Stegwindow = () => {
         onClose={closeModal}
         css={{ backgroundColor: COLORS.gray[700] }}
       >
-        {/* <Modal.Header>
-          <Text b size={18} color="white">The encrypted image.</Text>
-        </Modal.Header> */}
         <Modal.Body>
           <Image
             autoResize
