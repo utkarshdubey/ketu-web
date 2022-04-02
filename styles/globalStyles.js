@@ -1,5 +1,5 @@
 import { globalCss } from "@stitches/react";
-import { WEIGHTS } from "./constants";
+import { COLORS, WEIGHTS } from "./constants";
 
 export const globalStyles = globalCss({
   "*": {
